@@ -201,7 +201,7 @@
 		  </div>        
         <!-- /.box-body -->
         <div class="box-footer">
-         <center> <a href="https://imam.restujati.com"><strong>Automated Checlist</strong></a> - 2024</center>
+         <center> <a href="https://escore-mice.com"><strong>Automated Checlist</strong></a> - 2024</center>
         </div>
         <!-- /.box-footer-->
       </div>
@@ -216,7 +216,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0
     </div>
-    <strong><a href="https://imam.restujati.com"></a>.</strong> 
+    <strong><a href="https://escore-mice.com"></a>.</strong> 
   </footer>
 
   <div class="control-sidebar-bg"></div>
