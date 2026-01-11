@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			
-      <form action="<?php echo 'https://' . $base_url . '/script/laporan.php'; ?>" method="POST">
+        <form action="<?php echo 'https://' . $base_url . '/script/laporan.php'; ?>" method="POST">
 			<!-- <form action="https://imam.restujati.com/script/laporan.php" method="POST"> -->
 			
 			    <button type="submit" class="btn btn-primary">Lihat Laporan</button>
