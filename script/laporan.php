@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "rest6794_imam";
-$password = "R3m3mb3rm3!";
-$database = "rest6794_imam";
+$user = "escore-mice";
+$password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
+$database = "escore_mice";
 
 ?>
 <head>

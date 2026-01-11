@@ -5,10 +5,10 @@
     $inputer            = $_POST['inputer'];
 
 
-    $host = "localhost";
-    $user = "rest6794_imam";
-    $password = "R3m3mb3rm3!";
-    $database = "rest6794_imam";
+	$host = "localhost";
+	$user = "escore-mice";
+	$password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
+	$database = "escore_mice";
 	// $conn = new mysqli($servername, $username, $password, $dbname);
     $connect=mysqli_connect("$host", "$user", "$password", "$database");
 	// Check if the connection was successful
