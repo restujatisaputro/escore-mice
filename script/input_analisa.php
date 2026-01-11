@@ -4,15 +4,15 @@
     $source_code_input  = $_POST['source_code'];
     $inputer            = $_POST['inputer'];
 
-
-	$host = "localhost";
-	$user = "escore-mice";
-	$password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
-	$database = "escore_mice";
+include "conn.php";
+	// $host = "localhost";
+	// $user = "escore-mice";
+	// $password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
+	// $database = "escore_mice";
 	// $conn = new mysqli($servername, $username, $password, $dbname);
-    $connect=mysqli_connect("$host", "$user", "$password", "$database");
+    // $connect=mysqli_connect("$host", "$user", "$password", "$database");
 	// Check if the connection was successful
-
+	$connect=mysqli_connect($host, $user, $password, $database);
     $data = mysqli_query($connect, "select * from tb_website where alamat_website = '$alamat_website' ");
 		while($result = mysqli_fetch_array($data)){
 			$id_website = $result["id_website"];	
@@ -112,7 +112,7 @@
 ?>
 
 <script type="text/javascript">
-    window.location.replace("https://imam.restujati.com/website/read/<?php echo $id_website ; ?>");
+    window.location.replace("https://"<?php echo $baseur ?>"/website/read/<?php echo $id_website ; ?>");
 </script>
 
     

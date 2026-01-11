@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
-$user = "escore-mice";
-$password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
-$database = "escore_mice";
+// $host = "localhost";
+// $user = "escore-mice";
+// $password = "uVHAxf9lPFsOShSnSnjWfZ6Bt";
+// $database = "escore_mice";
+include "conn.php";
 
 ?>
 <head>
@@ -176,7 +177,7 @@ $database = "escore_mice";
 
 </br>
 <center>
-    <form action="http://imam.restujati.com/script/export_laporan.php" method="POST">
+    <form action="<?php echo 'https://'.$baseur.'/script/export_laporan.php'?>" method="POST">
 			
 			    <button type="submit" class="btn btn-primary">Export CSV</button>
 		    </form>
