@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | the query builder class.
 */
 $hst = 'localhost';
-$usrn = 'escore-mice';
+$usrn = 'escore_mice';
 $pwds = 'uVHAxf9lPFsOShSnSnjWfZ6Bt';
 $dbse = 'escore-mice';
 
